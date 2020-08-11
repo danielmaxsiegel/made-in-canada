@@ -1,6 +1,6 @@
 {
   "name": "Made in Canada",
-  "version": "1.0",
+  "version": "0.7",
   "description": "A quick and simple extension for identifying when you're on a site that sells Canadian-made goods and services 🇨🇦",
   "permissions": ["contextMenus", "tabs", "activeTab", "declarativeContent", "storage"],
   "content_scripts": [
@@ -8,9 +8,11 @@
       "matches": [
         "*://www.canadagoose.com/*",
         "*://collectionarianne.com/*",
-        "*://crownroyal.com/*",
-        "*://fortycreekwhisky.com/*",
+        "*://www.crownroyal.com/*",
+        "*://www.fortycreekwhisky.com/*",
         "*://www.frankandoak.com/*",
+        "*://www.goodyear.ca/*",
+        "*://www.michelin.ca/*",
         "*://sabian.com/*"
       ],
       "js": ["infobar.js"]
@@ -19,17 +21,17 @@
   "page_action": {
     "default_popup": "popup.html",
     "default_icon": {
-      "16": "images/get_started16.png",
-      "32": "images/get_started32.png",
-      "48": "images/get_started48.png",
-      "128": "images/get_started128.png"
+      "16": "images/maple16.png",
+      "32": "images/maple32.png",
+      "48": "images/maple48.png",
+      "128": "images/maple128.png"
     }
   },
   "icons": {
-    "16": "images/get_started16.png",
-    "32": "images/get_started32.png",
-    "48": "images/get_started48.png",
-    "128": "images/get_started128.png"
+    "16": "images/maple16.png",
+    "32": "images/maple32.png",
+    "48": "images/maple48.png",
+    "128": "images/maple128.png"
   },
   "manifest_version": 2
 }
