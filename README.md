@@ -1,2 +1,3 @@
 # made-in-canada
-A browser extension showing you what's made in Canada
+
+A Chrome browser extension for identifying when you're on a site that sells Canadian-made goods and services.
