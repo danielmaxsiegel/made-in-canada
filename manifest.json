@@ -7,6 +7,7 @@
     {
       "matches": [
         "*://arcteryx.com/*",
+        "*://www.aritzia.com/*",
         "*://www.canadagoose.com/*",
         "*://collectionarianne.com/*",
         "*://www.crownroyal.com/*",
@@ -14,11 +15,21 @@
         "*://www.frankandoak.com/*",
         "*://www.goodyear.ca/*",
         "*://www.herschelsupply.com/*",
+        "*://www.lolelife.com/*",
+        "*://shop.lululemon.com/*",
+        "*://www.mec.ca/*",
         "*://www.michelin.ca/*",
+        "*://www.muttonheadstore.com/*",
+        "*://www.nakedandfamousdenim.com/*",
         "*://www.paderno.com/*",
+        "*://ca.pajar.com/*",
+        "*://us.pajar.com/*",
+        "*://www.point-zero.com/*",
         "*://www.roots.com/*",
         "*://sabian.com/*",
-        "*://canada.sambat.com/*"
+        "*://canada.sambat.com/*",
+        "*://www.sorel.com/*",
+        "*://theunbrandedbrand.com/*"
       ],
       "js": ["infobar.js"]
     }
