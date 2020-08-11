@@ -1,19 +1,24 @@
 {
   "name": "Made in Canada",
-  "version": "0.7",
+  "version": "1.0",
   "description": "A quick and simple extension for identifying when you're on a site that sells Canadian-made goods and services 🇨🇦",
-  "permissions": ["contextMenus", "tabs", "activeTab", "declarativeContent", "storage"],
+  "permissions": [],
   "content_scripts": [
     {
       "matches": [
+        "*://arcteryx.com/*",
         "*://www.canadagoose.com/*",
         "*://collectionarianne.com/*",
         "*://www.crownroyal.com/*",
         "*://www.fortycreekwhisky.com/*",
         "*://www.frankandoak.com/*",
         "*://www.goodyear.ca/*",
+        "*://www.herschelsupply.com/*",
         "*://www.michelin.ca/*",
-        "*://sabian.com/*"
+        "*://www.paderno.com/*",
+        "*://www.roots.com/*",
+        "*://sabian.com/*",
+        "*://canada.sambat.com/*"
       ],
       "js": ["infobar.js"]
     }
