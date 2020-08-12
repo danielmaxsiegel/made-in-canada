@@ -2,7 +2,7 @@
   "name": "Made in Canada",
   "version": "1.0",
   "description": "A quick and simple extension for identifying when you're on a site that sells Canadian-made goods and services 🇨🇦",
-  "permissions": [],
+  "permissions": ["activeTab", "declarativeContent"],
   "content_scripts": [
     {
       "matches": [
@@ -34,14 +34,10 @@
       "js": ["infobar.js"]
     }
   ],
-  "page_action": {
-    "default_popup": "popup.html",
-    "default_icon": {
-      "16": "images/maple16.png",
-      "32": "images/maple32.png",
-      "48": "images/maple48.png",
-      "128": "images/maple128.png"
-    }
+  "browser_action": {},
+  "background":
+  {
+    "scripts": ["background.js"]
   },
   "icons": {
     "16": "images/maple16.png",
