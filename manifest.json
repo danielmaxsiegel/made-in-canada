@@ -1,6 +1,6 @@
 {
   "name": "Made in Canada",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A quick and simple extension for identifying when you're on a site that sells Canadian-made goods and services 🇨🇦",
   "permissions": ["activeTab", "declarativeContent"],
   "content_scripts": [
