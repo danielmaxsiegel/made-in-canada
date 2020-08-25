@@ -19,17 +19,29 @@
         font-weight: 350;
       }
 
+      h4 a {
+        font-weight: normal;
+      }
+
       h1 {
-        font-size: 2rem;
+        font-size: 6rem;
+        font-weight: normal;
       }
 
       h2 {
-        font-size: 1.5rem;
-        font-weight: 500;
+        font-size: 2rem;
+        font-weight: normal;
         color: #333;
+        padding-bottom: 5%;
       }
 
       h3 {
+        font-size: 1.5rem;
+        font-weight: normal;
+        color: #555;
+      }
+
+      h4 {
         font-size: 1.1rem;
         font-style: italic;
         font-weight: 300;
@@ -39,16 +51,42 @@
 
       table {
         margin: 0 auto;
+        text-align: left;
+        border-spacing: 0;
+        width: 80%;
+        border: 1px solid #ddd;
       }
 
       td {
         padding-top: 10px;
-        font-size: 1.4rem;
+        font-size: 1rem;
+        color: #222;
+        padding: 15px 30px;
+      }
+
+      td.company-name {
+        width:50%;
+      }
+
+      td.company-industry {
+        width:50%;
+      }
+
+      th {
+        font-size: 1.1rem;
+        font-weight: bold;
+        color: #111;
+        text-decoration: underline;
+        padding: 15px 30px;
+      }
+
+      tr:nth-child(even) {
+        background-color: #f2f2f2
       }
 
       .container {
-        width: 80%;
-        margin: 5% auto;
+        width: 65%;
+        margin: 10% auto 5% auto;
       }
 
       .ca-icon {
@@ -59,13 +97,17 @@
 
   <body>
     <div class="container">
-      <h1>The Made In Canada browser extension shows you when sites you're visiting feature goods and services that are made in Canada <i class="fab fa-canadian-maple-leaf ca-icon"></i></h1>
+      <h1>Made In Canada <i class="fab fa-canadian-maple-leaf ca-icon"></i></h1>
 
-      <h2>See the full list here:</h2>
+      <h2>Shows you when sites feature products that are manufactured in Canada.</h2>
+
+      <h3>See the full list here:</h3>
 
       <div id="table-div"></div>
 
-      <h3>Please submit suggestions or corrections to <a href = "mailto: canada@danmax.cc">canada@danmax.cc</a>.</h3>
+      <h4>Ideated by <a href="https://github.com/meaghanjohns" target="_blank">Meaghan Johns</a>, coded by <a href="https://danielmaxsiegel.com/" target="_blank">Dan Siegel</a>. Please submit suggestions or corrections to <a href="mailto: canada@danmax.cc">canada@danmax.cc</a>.</h4>
+
+      <!-- source image from https://nationalpost.com/news/canada/michael-den-tandt-one-year-of-trudeaus-liberals-plenty-of-successes-amid-the-dithering -->
     </div>
     <script src="./infoPage.js"></script>
   </body>
