@@ -56,6 +56,7 @@ function getSites() {
     {name: "Molson", site: "www.molson.ca", industry: "beer"},
     {name: "Muttonhead", site: "www.muttonheadstore.com", industry: "clothing"},
     {name: "Naked and Famous", site: "www.nakedandfamousdenim.com", industry: "clothing"},
+    {name: "Outclass", site: "outclass.ca", industry: "clothing"},
     {name: "Paderno", site: "www.paderno.com", industry: "kitchen appliances"},
     {name: "Pajar", site: "ca.pajar.com", industry: "clothing"},
     {name: "Point Zero", site: "www.point-zero.com", industry: "clothing"},
