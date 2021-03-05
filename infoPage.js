@@ -73,6 +73,8 @@ function getSites() {
     {name: "Stede", site: "stede.ca", industry: "clothing (men)"},
     {name: "String Theory", site: "stringtheory.co", industry: "clothing"},
     {name: "The Unbranded Brand", site: "theunbrandedbrand.com", industry: "clothing"},
+    {name: "TMPL Sportswear", site: "tmplsportswear.com", industry: "clothing"},
+    {name: "Topsy Farms", site: "topsyfarms.com", industry: "wool products"},
     {name: "Unibroue", site: "www.unibroue.com", industry: "beer"},
     {name: "Wine Rack", site: "www.winerack.com", industry: "wine"},
     {name: "Wings + Horns", site: "wingsandhorns.com", industry: "clothing (men)"},
