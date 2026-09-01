@@ -1,0 +1,19 @@
+name: Link check
+
+on:
+  schedule:
+    - cron: '0 13 * * 1' # weekly, Monday 13:00 UTC
+  workflow_dispatch: {}
+  pull_request:
+    paths:
+      - 'sites.json'
+
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: node scripts/check-links.js

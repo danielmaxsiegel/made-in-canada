@@ -1,0 +1,8 @@
+{
+  "name": "made-in-canada",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build-manifest.js",
+    "check-links": "node scripts/check-links.js"
+  }
+}
